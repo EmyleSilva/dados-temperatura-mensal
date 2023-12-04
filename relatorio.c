@@ -41,8 +41,8 @@ Temp* recuperarDados(char *nomeArq, Temp *t, int *indice_t){
             cont++;
             pttok = strtok(NULL, ", ");
         }
-        t[(*indice_t)].temp_max = atof(linha2[--cont]);
         t[(*indice_t)].temp_min = atof(linha2[--cont]);
+        t[(*indice_t)].temp_max = atof(linha2[--cont]);
         t[(*indice_t)].dia = atoi(linha2[--cont]);
         t[(*indice_t)].mes = atoi(linha2[--cont]);
 

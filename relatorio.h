@@ -6,8 +6,8 @@
 typedef struct temp{
     int mes;
     int dia;
-    float temp_min;
     float temp_max;
+    float temp_min;
 }Temp;
 
 /*
